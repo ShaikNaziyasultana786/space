@@ -1,0 +1,21 @@
+body
+{
+    width:80%;
+    height: 6000px;
+    background-image:url(./asset/sun.png),url(./asset/mars.png),url(./asset/star.jpg) ;
+    background-size: 500px,100px,100% 6200px;
+    background-attachment: fixed,scroll,scroll;
+    background-repeat: no-repeat;
+    background-position: -200px -200px,center left ,center;
+
+}
+img
+{
+    width: 100px;
+    float: right;
+}
+marquee
+{
+    height: 100%;
+    float: right;
+}
